@@ -1,0 +1,46 @@
+/*
+Copyright (c) 2015 David J. Powell)
+*/
+
+body {
+  border: 1px solid black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  border: 1px solid blue;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.left {
+  border: 1px solid red;
+  order: 1;
+  width: 45%;
+}
+
+.right {
+  border: 1px solid green;
+  order: 2;
+  width: 45%;
+}
+
+footer {
+  margin: 0 auto;
+  padding-top: .5em;
+  text-align: center;
+}
+
+ 
+
+
+
+
+ 
+
